@@ -7,7 +7,7 @@ __email__ = 'hanzhoutang@gmail.com'
 import cv2 as cv
 import numpy as np
  
-img = cv.imread("C:\\Matlab\\tmp.jpg",0)
+img = cv.imread("tmp.jpg",0)
 
 def convert_to_ascii_compress(img,row_step = 3, column_step = 3):
     chars = " .,:;ox%#@"
